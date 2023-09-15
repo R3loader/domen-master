@@ -1,6 +1,5 @@
-
-import os
 import launcher
+from colorama import Fore, Back, Style
 #
 def ddos():
     while True:
@@ -8,7 +7,7 @@ def ddos():
         print("exit enter 99")
 
 
-        host = input('Please Enter The Target IP : ')
+        host = input(Style.BRIGHT+Fore.RED+'Enter metod>> '+Fore.RESET)
 
         if host=="99":
             launcher.later2()

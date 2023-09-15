@@ -13,12 +13,17 @@ import update_launcher
 
 from time import sleep
 
+def module():
+      import requests
+      from colorama import Fore, Back, Style
+      import os
 def later():
       print("later...")
       sleep(3)
       print('\n' * 100)
 def later2():
       print('\n' * 100)
+
 def launcher():
       while True:
             print(Style.BRIGHT+Fore.RED+"\n             \domen-master/\n\n"+
@@ -32,7 +37,7 @@ def launcher():
                   "---------------------------------------------\n"+Fore.LIGHTGREEN_EX+
                   "99 - exit       "+Style.BRIGHT+Fore.YELLOW+"By:R3loader "+Fore.GREEN+"     100 - links\n")
 
-            metod = input(Style.BRIGHT+Fore.RED+'input metod>> ')
+            metod = input(Style.BRIGHT+Fore.RED+'Enter metod>> '+Fore.RESET )
             if metod=="1":
                   os.system("python3 gui/main.py ")
             elif metod=="2":

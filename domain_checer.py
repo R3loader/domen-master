@@ -1,7 +1,7 @@
 
 import requests
 import data
-
+from colorama import Fore, Back, Style
 
 
 
@@ -14,8 +14,8 @@ def free_domain():
               "\n"
               "\n99 - exit"
               "\n")
-        metod = input(">> ")
-        site_name = input("Name site>> ")
+        metod = input(Style.BRIGHT + Fore.RED + 'Enter metod>> ' +Fore.RESET+"\n")
+        site_name = input(Style.BRIGHT + Fore.RED + 'Site name>> ' +Fore.RESET)
         if metod=="1":
             print("domens types \n"
                   "1 - none \n"
