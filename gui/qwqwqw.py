@@ -1,0 +1,3 @@
+
+def bim():
+    print("IBIBIBIGBABABAVAVAVAVA")

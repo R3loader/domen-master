@@ -51,7 +51,7 @@ def no_module_launcher():
     elif update_launcher_metod=="2":
         update()
     elif update_launcher_metod=="3":
-        print(Fore.YELLOW+"Your os?\n1 - windows\n2 - linux")
+        print("Your os?\n1 - windows\n2 - linux")
         update_launcher_metod_os = input(">> ")
         if update_launcher_metod_os=="1":
             os.system("python.exe -m pip install --upgrade pip")

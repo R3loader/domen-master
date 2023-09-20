@@ -1,6 +1,6 @@
 
 
-domens = ['.ru', '.com', '.рф', '.net', '.org', '.ru.net', '.pro', '.ua', ]
+domens = ['.ru', '.com', '.рф', '.net', '.org', '.ru.net', '.pro', '.ua','.su','.space' ]
 
 a = ["a","a","a","a","a","a","a","a","a","a","a","a","a","a","a","a","a",]
 #
