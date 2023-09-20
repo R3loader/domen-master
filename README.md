@@ -16,6 +16,7 @@ My program is a kind of multitool for working with domains
 Termux
 <p>
   git clone https://github.com/R3loader/domen-masters
+  
   pkg install python3
   python3 download.py
   1
