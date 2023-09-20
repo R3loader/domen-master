@@ -1,4 +1,4 @@
-
+import colorama
 import requests
 from colorama import Fore, Back, Style
 import os
@@ -6,6 +6,7 @@ import os
 import domain_checer
 import free_domain
 import data_manager
+import link
 from ddos import ddos
 import ping
 import ip_adress
@@ -32,7 +33,7 @@ def launcher():
                   "2 - search free domain             8 - clear\n"
                   "3 - domain checer                  9 - info version\n"
                   "4 - ddos (site not have proxy)     10 - update launcher\n"
-                  "5 - data manager                   11 - None\n"
+                  "5 - data manager                   11 - links master\n"
                   "6 - ping site                      12 - None\n"+Fore.CYAN+
                   "---------------------------------------------\n"+Fore.LIGHTGREEN_EX+
                   "99 - exit       "+Style.BRIGHT+Fore.YELLOW+"By:R3loader "+Fore.GREEN+"     100 - links\n")
@@ -71,13 +72,21 @@ def launcher():
                         update_launcher.update()
                   else:
                         print("\nWhat?\n")
+            elif metod=="11":
+                  link.links()
             elif metod=="99":
                   print("\n" * 100)
                   print(Style.BRIGHT+"bye <3"+Fore.RESET+"")
                   exit(232)
             elif metod=="100":
                   later2()
-                  print(Style.BRIGHT+Fore.YELLOW+"⬇️github⬇️\n"+Style.BRIGHT+Fore.BLUE+"https://github.com/R3loader/domen-master\n")
+                  os.system("termux-open-url https://github.com/R3loader")
+                  print(Style.BRIGHT+Fore.YELLOW+"⬇️github⬇️\n"+
+                        Style.BRIGHT+Fore.BLUE+"https://github.com/R3loader/domen-master\n"+
+                        Style.BRIGHT+Fore.YELLOW+"⬇️buy me a coffe⬇️\n"+
+                        Style.BRIGHT+Fore.BLUE+"https://www.buymeacoffee.com/r3oader\n"+
+                        Style.BRIGHT+Fore.YELLOW+"⬇️telegram⬇️\n"+
+                        Style.BRIGHT+Fore.BLUE+"https://t.me/termuxguid\n")
             else:
                   print("\nWhat?\n")
 

@@ -1,5 +1,7 @@
 import os
 
+import data
+
 
 def launch():
     print("1 - no module laucher\n"
@@ -15,9 +17,10 @@ def download():
     os.system("python.exe -m pip install --upgrade pip")
     os.system("pip3 install requests colorama")
 def update():
-    os.system("python.exe -m pip install --upgrade pip")
-    os.system("pip3 uninstall requests colorama")
-    os.system("pip3 install requests colorama")
+    import data
+    for c in data.module_update:
+        print(c)
+        os.system(c)
 def colorama_launcher():
     from colorama import Fore, Back, Style
     import launcher
