@@ -7,3 +7,9 @@
 <h3>
   DOMEN_MASTER
 </h3>
+
+My program is a kind of multitool for working with domains
+
+<h3>
+  INSTALL
+</h3>
