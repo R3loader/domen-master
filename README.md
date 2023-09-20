@@ -15,7 +15,7 @@ My program is a kind of multitool for working with domains
 </h3>
 Termux
 <p style="text-indent: 25px;>
-  <br> git clone https://github.com/R3loader/domen-masters </br> pkg install python3</br><br>python3 download.py</br><br>1</br><br>python3 domen-master.py</br>
+  <br>git clone https://github.com/R3loader/domen-masters</br>pkg install python3</br><br>python3 download.py</br><br>1</br><br>python3 domen-master.py</br>
 </p>
 Linux
 <p style="text-indent: 25px;>
