@@ -14,7 +14,7 @@ My program is a kind of multitool for working with domains
   INSTALL
 </h3>
 Termux
-<p>
+<p style="text-indent: 25px;>
   git clone https://github.com/R3loader/domen-masters
   
   pkg install python3
