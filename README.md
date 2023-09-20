@@ -11,7 +11,7 @@
 My program is a kind of multitool for working with domains
 
 <h3>
-  INSTALL
+  DOWNLOAD
 </h3>
 Termux
 <p style="text-indent: 25px;>
