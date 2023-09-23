@@ -13,6 +13,7 @@ import ip_adress
 import update_launcher
 
 from time import sleep
+import webbrowser
 
 def module():
       import requests
@@ -80,6 +81,7 @@ def launcher():
                   exit(232)
             elif metod=="100":
                   later2()
+                  webbrowser.open("https://github.com/R3loader", new=0, autoraise=True)
                   os.system("termux-open-url https://github.com/R3loader")
                   print(Style.BRIGHT+Fore.YELLOW+"⬇️github⬇️\n"+
                         Style.BRIGHT+Fore.BLUE+"https://github.com/R3loader/domen-master\n"+
