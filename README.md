@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>domen-master</title>
 </head>
 <body>
 
