@@ -35,7 +35,7 @@
     <li>Run the program:</li>
 </ol>
 
-<code>python3 main.py</code>
+<code>python3 domen-master.py</code>
 
 <h2>Usage</h2>
 <p>Follow the on-screen menu to access the various features of domen-master:</p>
