@@ -31,9 +31,16 @@
 
 <code>git clone https://github.com/R3loader/domen-master.git</code>
 
+<ol>
+    <li>Change to the directory</li>
+</ol>
+
+<code>cd domen-master</code>
+
 <ol start="2">
     <li>Run the program:</li>
 </ol>
+
 
 <code>python3 domen-master.py</code>
 
