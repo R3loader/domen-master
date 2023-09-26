@@ -31,13 +31,13 @@
 
 <code>git clone https://github.com/R3loader/domen-master.git</code>
 
-<ol>
+<ol start="2">
     <li>Change to the directory</li>
 </ol>
 
 <code>cd domen-master</code>
 
-<ol start="2">
+<ol start="3">
     <li>Run the program:</li>
 </ol>
 
