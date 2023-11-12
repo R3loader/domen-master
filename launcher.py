@@ -88,7 +88,7 @@ def launcher():
                         Style.BRIGHT+Fore.YELLOW+"⬇️buy me a coffe⬇️\n"+
                         Style.BRIGHT+Fore.BLUE+"https://www.buymeacoffee.com/r3oader\n"+
                         Style.BRIGHT+Fore.YELLOW+"⬇️telegram⬇️\n"+
-                        Style.BRIGHT+Fore.BLUE+"https://t.me/termuxguid\n")
+                        Style.BRIGHT+Fore.BLUE+"https://t.me/+BJ3xV4g4sGQzMjcyn")
             else:
                   print("\nWhat?\n")
 
